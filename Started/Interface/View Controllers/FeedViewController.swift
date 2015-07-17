@@ -330,7 +330,7 @@ class FeedViewController : UIViewController {
         let isReachable = (flags.rawValue & UInt32(kSCNetworkFlagsReachable)) != 0
         let needsConnection = (flags.rawValue & UInt32(kSCNetworkFlagsConnectionRequired)) != 0
         
-        return true //(isReachable && !needsConnection)
+        return (isReachable && !needsConnection)
     }
 }
 
