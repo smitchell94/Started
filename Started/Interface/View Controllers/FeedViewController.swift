@@ -12,17 +12,6 @@ import SystemConfiguration
 class FeedViewController : UIViewController {
     
     
-    
-    // TODO 
-    // jobs paging? ...
-    //   - if no more pages available (alert view that bitch telling them ho's)
-    
-    // MAKE SURE IT WORKS ON REQUIRED SCREEN SIZES...
-    // UPLOAD :O
-    // EMAIL DA PEOPLES
-    
-    
-  
     let menuHeight: CGFloat =  60.0
     
     var jobs = [JobItem]()
