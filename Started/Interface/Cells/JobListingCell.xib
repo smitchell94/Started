@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ProximaNova-Regular.otf">
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+        <mutableArray key="ProximaNova-Semibold.otf">
+            <string>ProximaNova-Semibold</string>
+            <string>ProximaNova-Semibold</string>
+            <string>ProximaNova-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JobListingCell" customModule="Startrr" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="312"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Designer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XX-ca-2YW" userLabel="Job_Position_Label">
+                    <rect key="frame" x="62" y="26" width="250" height="16"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="3ZJ-jC-JZR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
+                    <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dropbox" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slH-Dq-x7Y" userLabel="Company_Label">
+                    <rect key="frame" x="164" y="49" width="45.5" height="12"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                    <color key="textColor" red="0.54117647058823526" green="0.5490196078431373" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uX-xE-pPd" userLabel="Job_Type_Label">
+                    <rect key="frame" x="289" y="86" width="48.5" height="12"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                    <color key="textColor" red="0.56470588235294117" green="0.5725490196078431" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Graduate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n15-1z-JYl" userLabel="Job_Type_Info_Label">
+                    <rect key="frame" x="290" y="102" width="46" height="11"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="11"/>
+                    <color key="textColor" red="0.45490196078431372" green="0.47058823529411764" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7F-UX-k2F" userLabel="Location_Label">
+                    <rect key="frame" x="41" y="86" width="45" height="12"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                    <color key="textColor" red="0.56470588235294117" green="0.5725490196078431" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="London" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pm-ta-jgo" userLabel="Location_Info_Label">
+                    <rect key="frame" x="45" y="102" width="37" height="11"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="11"/>
+                    <color key="textColor" red="0.45490196078431372" green="0.47058823529411764" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikq-7p-JpM" userLabel="Date_Label">
+                    <rect key="frame" x="169" y="86" width="37" height="12"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
+                    <color key="textColor" red="0.56470588235294117" green="0.5725490196078431" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100,00 a year" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rw9-6O-OVc" userLabel="Date_Info_Label">
+                    <rect key="frame" x="151" y="102" width="73.5" height="11"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="11"/>
+                    <color key="textColor" red="0.45490196078431372" green="0.47058823529411764" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLD-qV-N1O" userLabel="Job_Brief">
+                    <rect key="frame" x="40" y="143" width="295" height="84"/>
+                    <animations/>
+                    <string key="text">Our design team crafts delightful experiences that make people’s lives easier. We’re clos-knit, collabortative group, guided bt a highly iterative design process. We’re looking for a driven product designer to refine Dropbox’s simplicity and apply it to new, amazing and...</string>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                    <color key="textColor" red="0.5490196078431373" green="0.58039215686274503" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kB7-5s-6VR">
+                    <rect key="frame" x="156" y="256" width="63" height="25"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
+                    <state key="normal" title="Read More">
+                        <color key="titleColor" red="0.5607843137254902" green="0.59607843137254901" blue="0.66274509803921566" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onReadMoreButtonPress:" destination="iN0-l3-epB" eventType="touchUpInside" id="cEn-Au-ISi"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="NCa-P2-4Z2">
+                    <rect key="frame" x="40" y="146" width="295.5" height="100"/>
+                    <animations/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09f-eg-BB2" userLabel="Seperator_Right">
+                    <rect key="frame" x="253" y="84" width="1" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="1dC-Ox-vXE"/>
+                        <constraint firstAttribute="height" constant="30" id="tNh-DQ-vo3"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="asz-uF-zvE" userLabel="Seperator_Left">
+                    <rect key="frame" x="121" y="84" width="1" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1" id="1tG-HE-KFA"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="e02-OW-UxM"/>
+                        <constraint firstAttribute="height" constant="30" id="s2x-Dj-vt6"/>
+                        <constraint firstAttribute="width" constant="1" id="xhe-CV-yeu"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQU-mM-J2z" userLabel="Bottom_Seperator">
+                    <rect key="frame" x="40" y="301" width="294.5" height="1"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="2jz-zM-ync"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DQU-mM-J2z" secondAttribute="bottom" constant="10" id="0jL-iE-REB"/>
+                <constraint firstItem="3uX-xE-pPd" firstAttribute="leading" secondItem="09f-eg-BB2" secondAttribute="trailing" constant="35" id="1YW-ea-FzM"/>
+                <constraint firstAttribute="centerX" secondItem="slH-Dq-x7Y" secondAttribute="centerX" id="6Wc-kd-AZ2"/>
+                <constraint firstItem="n15-1z-JYl" firstAttribute="centerX" secondItem="3uX-xE-pPd" secondAttribute="centerX" constant="0.25" id="9WW-rd-mAK"/>
+                <constraint firstAttribute="centerX" secondItem="0XX-ca-2YW" secondAttribute="centerX" id="9hd-N7-aKK"/>
+                <constraint firstItem="slH-Dq-x7Y" firstAttribute="top" secondItem="0XX-ca-2YW" secondAttribute="bottom" constant="7" id="9qV-Gr-rIa"/>
+                <constraint firstItem="DQU-mM-J2z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="Cbm-2q-VdB"/>
+                <constraint firstAttribute="centerX" secondItem="ikq-7p-JpM" secondAttribute="centerX" id="FFh-Q0-xdz"/>
+                <constraint firstItem="X7F-UX-k2F" firstAttribute="centerY" secondItem="ikq-7p-JpM" secondAttribute="centerY" id="GX6-wW-oeY"/>
+                <constraint firstItem="asz-uF-zvE" firstAttribute="leading" secondItem="X7F-UX-k2F" secondAttribute="trailing" constant="35" id="IFK-L1-wWG"/>
+                <constraint firstItem="rw9-6O-OVc" firstAttribute="centerY" secondItem="8Pm-ta-jgo" secondAttribute="centerY" id="IOS-qE-H6h"/>
+                <constraint firstItem="X7F-UX-k2F" firstAttribute="centerX" secondItem="8Pm-ta-jgo" secondAttribute="centerX" constant="0.5" id="Jni-hA-2Qo"/>
+                <constraint firstItem="NCa-P2-4Z2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="MIq-FI-uKP"/>
+                <constraint firstAttribute="trailing" secondItem="NCa-P2-4Z2" secondAttribute="trailing" constant="40" id="Ngz-wy-3Jb"/>
+                <constraint firstItem="ikq-7p-JpM" firstAttribute="centerY" secondItem="3uX-xE-pPd" secondAttribute="centerY" id="PcT-zp-n38"/>
+                <constraint firstAttribute="trailing" secondItem="GLD-qV-N1O" secondAttribute="trailing" constant="40" id="QYW-dV-kXl"/>
+                <constraint firstItem="0XX-ca-2YW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="26" id="Qec-2W-AQ0"/>
+                <constraint firstItem="rw9-6O-OVc" firstAttribute="top" secondItem="ikq-7p-JpM" secondAttribute="bottom" constant="4" id="TRZ-bz-g7o"/>
+                <constraint firstItem="kB7-5s-6VR" firstAttribute="top" secondItem="NCa-P2-4Z2" secondAttribute="bottom" constant="10" id="UKH-DE-6Fs"/>
+                <constraint firstItem="GLD-qV-N1O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="V0e-RJ-wFZ"/>
+                <constraint firstItem="09f-eg-BB2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="84" id="WNV-oc-bTD"/>
+                <constraint firstAttribute="trailing" secondItem="DQU-mM-J2z" secondAttribute="trailing" constant="40" id="Wut-nm-aF4"/>
+                <constraint firstItem="n15-1z-JYl" firstAttribute="centerY" secondItem="rw9-6O-OVc" secondAttribute="centerY" id="ZwN-UI-pVv"/>
+                <constraint firstAttribute="centerX" secondItem="rw9-6O-OVc" secondAttribute="centerX" id="aLf-4d-Ehs"/>
+                <constraint firstItem="asz-uF-zvE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="84" id="aWs-8p-fHQ"/>
+                <constraint firstItem="09f-eg-BB2" firstAttribute="leading" secondItem="ikq-7p-JpM" secondAttribute="trailing" constant="47" id="c45-N1-fuB"/>
+                <constraint firstItem="GLD-qV-N1O" firstAttribute="top" secondItem="rw9-6O-OVc" secondAttribute="bottom" constant="30" id="dEA-9b-o7i"/>
+                <constraint firstItem="ikq-7p-JpM" firstAttribute="leading" secondItem="asz-uF-zvE" secondAttribute="trailing" constant="47" id="dg5-7T-Vvd"/>
+                <constraint firstAttribute="centerX" secondItem="kB7-5s-6VR" secondAttribute="centerX" id="fSO-0V-1Iu"/>
+                <constraint firstItem="ikq-7p-JpM" firstAttribute="top" secondItem="slH-Dq-x7Y" secondAttribute="bottom" constant="25" id="tUe-eW-4vK"/>
+                <constraint firstItem="DQU-mM-J2z" firstAttribute="top" secondItem="kB7-5s-6VR" secondAttribute="bottom" constant="20" id="zx7-lk-zUe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="companyLabel" destination="slH-Dq-x7Y" id="y7R-4w-mIi"/>
+                <outlet property="dateInfoLabel" destination="rw9-6O-OVc" id="sYv-fs-T23"/>
+                <outlet property="jobBriefLabel" destination="GLD-qV-N1O" id="tec-XV-yCI"/>
+                <outlet property="jobPositionLabel" destination="0XX-ca-2YW" id="m4E-Q6-rLg"/>
+                <outlet property="jobTypeLabel" destination="n15-1z-JYl" id="Yzg-aF-zuI"/>
+                <outlet property="locationLabel" destination="8Pm-ta-jgo" id="4uy-Hl-9yS"/>
+            </connections>
+            <point key="canvasLocation" x="257.5" y="174"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="white_gradient" width="100" height="100"/>
+    </resources>
+</document>
